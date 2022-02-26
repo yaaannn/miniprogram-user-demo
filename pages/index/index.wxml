@@ -1,0 +1,16 @@
+<view>
+  <input type="text" value="{{userName}}" bindinput="userNameInputHandler" placeholder="用户名" />
+  <input type="safe-password" value="{{password}}" bindinput="passwordInputHandler" placeholder="密码" />
+
+
+  <button type="primary" bindtap="doLogin">登录(查)</button>
+  <button type="primary" bindtap="doReg">注册(增)</button>
+  <button type="primary" bindtap="changePwd">修改密码(改)</button>
+  <button type="primary" bindtap="deleteUser">删除用户(删)</button>
+  <button type="primary" bindtap="checkAll">查看所有用户</button>
+
+  <view>````````````````````````````````````````````````````</view>
+  <text>
+    修改密码和删除用户前请先登录
+  </text>
+</view>

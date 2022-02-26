@@ -1,0 +1,6 @@
+<view>
+  <input type="text" value="{{userName}}" bindinput="userNameInputHandler"/>
+  <input type="safe-password" value="{{password}}" bindinput="passwordInputHandler"/>
+
+  <button type="primary" bindtap="doReg">注册</button>
+</view>

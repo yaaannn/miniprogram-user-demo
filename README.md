@@ -4,6 +4,8 @@
 
 前后端分离
 
+后端地址：[yaaannn/flask-api-demo (github.com)](https://github.com/yaaannn/flask-api-demo)
+
 前端：微信小程序原生开发
 
 后端：Python flask 框架 + mysql + redis
